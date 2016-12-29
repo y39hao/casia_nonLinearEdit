@@ -1,0 +1,43 @@
+﻿生成启动时间为 2016/3/1 15:13:48。
+     1>项目“C:\Users\john\Documents\Visual Studio 2010\Projects\NonLinearEdit\FormTest\FormTest.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“C:\Users\john\Documents\Visual Studio 2010\Projects\NonLinearEdit\Release\”。
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1578,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "x86" and the processor architecture of the reference "C:\Users\john\Documents\Visual Studio 2010\Projects\NonLinearEdit\x64\Release\NonLinearEdit.dll", "AMD64". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+       InitializeBuildStatus:
+         正在创建“Release\FormTest.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       GenerateTargetFrameworkMonikerAttribute:
+       正在跳过目标“GenerateTargetFrameworkMonikerAttribute”，因为所有输出文件相对于输入文件而言都是最新的。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\FormTest.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /FU"C:\Users\john\Documents\Visual Studio 2010\Projects\NonLinearEdit\x64\Release\NonLinearEdit.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt stdafx.cpp /clr:nostdlib 
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\FormTest.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /FU"C:\Users\john\Documents\Visual Studio 2010\Projects\NonLinearEdit\x64\Release\NonLinearEdit.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt AssemblyInfo.cpp FormTest.cpp /clr:nostdlib 
+         AssemblyInfo.cpp
+         FormTest.cpp
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /clr:pure /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /analyze- /errorReport:prompt "C:\Users\john\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       CoreResGen:
+         "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\resgen.exe" /useSourcePath /r:"C:\Users\john\Documents\Visual Studio 2010\Projects\NonLinearEdit\x64\Release\NonLinearEdit.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /compile Form1.resX,Release\FormTest.Form1.resources
+         正在将资源文件“Form1.resX”处理到“Release\FormTest.Form1.resources”中。
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\app.res" app.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\john\Documents\Visual Studio 2010\Projects\NonLinearEdit\Release\FormTest.exe" /INCREMENTAL:NO /NOLOGO /ASSEMBLYRESOURCE:Release\FormTest.Form1.resources /MANIFEST /ManifestFile:"Release\FormTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\john\Documents\Visual Studio 2010\Projects\NonLinearEdit\Release\FormTest.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Release\app.res
+         Release\AssemblyInfo.obj
+         Release\FormTest.obj
+         Release\stdafx.obj
+         "Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         FormTest.vcxproj -> C:\Users\john\Documents\Visual Studio 2010\Projects\NonLinearEdit\Release\FormTest.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\john\Documents\Visual Studio 2010\Projects\NonLinearEdit\Release\FormTest.exe;#1" /manifest Release\FormTest.exe.intermediate.manifest
+       _CopyFilesMarkedCopyLocal:
+         正在将文件从“C:\Users\john\Documents\Visual Studio 2010\Projects\NonLinearEdit\x64\Release\NonLinearEdit.dll”复制到“C:\Users\john\Documents\Visual Studio 2010\Projects\NonLinearEdit\Release\NonLinearEdit.dll”。
+         正在将文件从“C:\Users\john\Documents\Visual Studio 2010\Projects\NonLinearEdit\x64\Release\NonLinearEdit.pdb”复制到“C:\Users\john\Documents\Visual Studio 2010\Projects\NonLinearEdit\Release\NonLinearEdit.pdb”。
+       FinalizeBuildStatus:
+         正在删除文件“Release\FormTest.unsuccessfulbuild”。
+         正在对“Release\FormTest.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\john\Documents\Visual Studio 2010\Projects\NonLinearEdit\FormTest\FormTest.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.77

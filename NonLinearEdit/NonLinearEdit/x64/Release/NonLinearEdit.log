@@ -1,0 +1,47 @@
+﻿Build started 2016/4/26 11:40:54.
+     1>Project "E:\hy\NonLinearEdit\NonLinearEdit\NonLinearEdit.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Release\NonLinearEdit.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       CoreResGen:
+         No resources are out of date with respect to their source files. Skipping resource generation.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\hy\NonLinearEdit\x64\Release\NonLinearEdit.dll" /INCREMENTAL:NO /NOLOGO opencv_core244.lib opencv_highgui244.lib opencv_imgproc244.lib opencv_video244.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /ASSEMBLYRESOURCE:x64\Release\NonLinearEdit.ChooseFpsuseForm.resources /ASSEMBLYRESOURCE:x64\Release\NonLinearEdit.LoadingForm.resources /ASSEMBLYRESOURCE:x64\Release\NonLinearEdit.NonLinearEditControl.resources /MANIFEST /ManifestFile:"x64\Release\NonLinearEdit.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\hy\NonLinearEdit\x64\Release\NonLinearEdit.pdb" /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X64 /DLL x64\Release\app.res
+         x64\Release\AssemblyInfo.obj
+         x64\Release\ChooseFpsuseForm.obj
+         x64\Release\CreateRectVedio.obj
+         x64\Release\ImageShow.obj
+         x64\Release\LoadingForm.obj
+         x64\Release\NonLinearEditControl.obj
+         x64\Release\PointAddress.obj
+         x64\Release\RectBox.obj
+         x64\Release\stdafx.obj
+         "x64\Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         NonLinearEdit.vcxproj -> E:\hy\NonLinearEdit\x64\Release\NonLinearEdit.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\hy\NonLinearEdit\x64\Release\NonLinearEdit.dll;#2" /manifest x64\Release\NonLinearEdit.dll.intermediate.manifest
+       _CopyFilesMarkedCopyLocal:
+         Copying file from "E:\hy\NonLinearEdit\NonLinearEdit\Release\DevComponents.DotNetBar.Design.dll" to "E:\hy\NonLinearEdit\x64\Release\DevComponents.DotNetBar.Design.dll".
+         Copying file from "E:\hy\NonLinearEdit\NonLinearEdit\Release\DevComponents.DotNetBar.Keyboard.dll" to "E:\hy\NonLinearEdit\x64\Release\DevComponents.DotNetBar.Keyboard.dll".
+         Copying file from "E:\hy\NonLinearEdit\NonLinearEdit\Release\DevComponents.DotNetBar.Schedule.dll" to "E:\hy\NonLinearEdit\x64\Release\DevComponents.DotNetBar.Schedule.dll".
+         Copying file from "E:\hy\NonLinearEdit\NonLinearEdit\Release\DevComponents.DotNetBar.SuperGrid.dll" to "E:\hy\NonLinearEdit\x64\Release\DevComponents.DotNetBar.SuperGrid.dll".
+         Copying file from "E:\hy\ImgProcessControl\ImgProcessControl\Release\DevComponents.DotNetBar2.dll" to "E:\hy\NonLinearEdit\x64\Release\DevComponents.DotNetBar2.dll".
+         Copying file from "E:\hy\NonLinearEdit\NonLinearEdit\Release\DevComponents.Instrumentation.Design.dll" to "E:\hy\NonLinearEdit\x64\Release\DevComponents.Instrumentation.Design.dll".
+         Copying file from "E:\hy\NonLinearEdit\NonLinearEdit\Release\DevComponents.Instrumentation.dll" to "E:\hy\NonLinearEdit\x64\Release\DevComponents.Instrumentation.dll".
+         Copying file from "E:\hy\NonLinearEdit\NonLinearEdit\Release\DevComponents.SuperGrid.Design.dll" to "E:\hy\NonLinearEdit\x64\Release\DevComponents.SuperGrid.Design.dll".
+         Copying file from "E:\hy\NonLinearEdit\NonLinearEdit\Release\DevComponents.TreeGX.dll" to "E:\hy\NonLinearEdit\x64\Release\DevComponents.TreeGX.dll".
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\NonLinearEdit.unsuccessfulbuild".
+         Touching "x64\Release\NonLinearEdit.lastbuildstate".
+     1>Done Building Project "E:\hy\NonLinearEdit\NonLinearEdit\NonLinearEdit.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.31

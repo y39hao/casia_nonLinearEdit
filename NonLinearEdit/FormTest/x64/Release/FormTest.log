@@ -1,0 +1,43 @@
+﻿Build started 2016/4/8 11:10:24.
+     1>Project "E:\hy\NonLinearEdit\FormTest\FormTest.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "x64\Release\FormTest.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /O2 /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"x64\Release\FormTest.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /TP /FUE:\hy\NonLinearEdit\x64\Release\NonLinearEdit.dll /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\PresentationCore.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\WindowsBase.dll" /errorReport:prompt stdafx.cpp /clr:nostdlib 
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /O2 /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Release\FormTest.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /TP /FUE:\hy\NonLinearEdit\x64\Release\NonLinearEdit.dll /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\PresentationCore.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\WindowsBase.dll" /errorReport:prompt AssemblyInfo.cpp FormTest.cpp /clr:nostdlib 
+         AssemblyInfo.cpp
+         FormTest.cpp
+     1>FormTest.cpp(6): error C2143: syntax error : missing ';' before 'using'
+     1>e:\hy\nonlinearedit\formtest\Form1.h(30): error C3861: 'InitializeComponent': identifier not found
+     1>e:\hy\nonlinearedit\formtest\Form1.h(34): error C2065: 'NLEControl' : undeclared identifier
+     1>e:\hy\nonlinearedit\formtest\Form1.h(34): error C2512: 'NonLinearEdit::NonLinearEditControl::NonLinearEditControl' : no appropriate default constructor available
+     1>e:\hy\nonlinearedit\formtest\Form1.h(36): error C2065: 'NLEControl' : undeclared identifier
+     1>e:\hy\nonlinearedit\formtest\Form1.h(45): error C2065: 'components' : undeclared identifier
+     1>e:\hy\nonlinearedit\formtest\Form1.h(47): error C2065: 'components' : undeclared identifier
+     1>e:\hy\nonlinearedit\formtest\Form1.h(47): error C2541: 'delete' : cannot delete objects that are not pointers
+     1>e:\hy\nonlinearedit\formtest\Form1.h(51): error C2143: syntax error : missing ';' before 'private'
+     1>e:\hy\nonlinearedit\formtest\Form1.h(65): error C2601: 'InitializeComponent' : local function definitions are illegal
+     1>e:\hy\nonlinearedit\formtest\Form1.h(66): error C2355: 'this' : can only be referenced inside non-static member functions
+     1>e:\hy\nonlinearedit\formtest\Form1.h(66): error C2227: left of '->SuspendLayout' must point to class/struct/union/generic type
+     1>e:\hy\nonlinearedit\formtest\Form1.h(70): error C2355: 'this' : can only be referenced inside non-static member functions
+     1>e:\hy\nonlinearedit\formtest\Form1.h(70): error C2227: left of '->AutoScaleDimensions' must point to class/struct/union/generic type
+     1>e:\hy\nonlinearedit\formtest\Form1.h(71): error C2355: 'this' : can only be referenced inside non-static member functions
+     1>e:\hy\nonlinearedit\formtest\Form1.h(71): error C2227: left of '->AutoScaleMode' must point to class/struct/union/generic type
+     1>e:\hy\nonlinearedit\formtest\Form1.h(72): error C2355: 'this' : can only be referenced inside non-static member functions
+     1>e:\hy\nonlinearedit\formtest\Form1.h(72): error C2227: left of '->ClientSize' must point to class/struct/union/generic type
+     1>e:\hy\nonlinearedit\formtest\Form1.h(73): error C2355: 'this' : can only be referenced inside non-static member functions
+     1>e:\hy\nonlinearedit\formtest\Form1.h(73): error C2227: left of '->Name' must point to class/struct/union/generic type
+     1>e:\hy\nonlinearedit\formtest\Form1.h(74): error C2355: 'this' : can only be referenced inside non-static member functions
+     1>e:\hy\nonlinearedit\formtest\Form1.h(74): error C2227: left of '->Text' must point to class/struct/union/generic type
+     1>e:\hy\nonlinearedit\formtest\Form1.h(75): error C2355: 'this' : can only be referenced inside non-static member functions
+     1>e:\hy\nonlinearedit\formtest\Form1.h(75): error C2227: left of '->ResumeLayout' must point to class/struct/union/generic type
+     1>FormTest.cpp(19): fatal error C1075: end of file found before the left brace '{' at 'e:\hy\nonlinearedit\formtest\Form1.h(10)' was matched
+         Generating Code...
+     1>Done Building Project "E:\hy\NonLinearEdit\FormTest\FormTest.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.56
